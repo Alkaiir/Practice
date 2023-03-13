@@ -1,6 +1,6 @@
 
 @font-face {
-    font-family: 'Stapel';
+    font-family: 'Stapel Medium';
     src: local('Stapel Medium'), local('Stapel-Medium'),
     url('Stapel-Medium.woff2') format('woff2'),
     url('Stapel-Medium.woff') format('woff'),
@@ -35,3 +35,149 @@
     box-sizing: border-box;
     outline: none;
 }
+
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+.header {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFF;
+    width: 100vw;
+    height: 74px;
+    background-color: #436591;
+}
+
+.header__content {
+    height: 74px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    margin-right: 66px;
+}
+
+.header__nav {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    margin-right: 84px;
+}
+
+.header__link {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.header__link:hover {
+    color: #FF9C1F;
+    transition: .2s all;
+}
+
+.header__info {
+    display: flex;
+    gap: 24px;
+}
+
+.header__info > p {
+    font-weight: 600;
+
+}
+
+/* HEADER */
+
+/*  MAIN  */
+
+.main {
+    font-family: 'Roboto';
+    font-style: normal;
+    color: #FFF;
+    margin-top: 32px;
+    margin-bottom: 47px;
+}
+
+.poster {
+    max-width: 100%;
+    height: 380px;
+    background-color: #FCBD14;
+    border-radius: 15px ;
+    padding: 30px 0 30px 66px;
+    background-image: url("/img/qqq.png");
+    background-repeat: no-repeat;
+    background-position-x: 417px ;
+    background-position-y: bottom;
+}
+
+.poster__title {
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 53px;
+    max-width: 539px;
+    margin-bottom: 15px;
+}
+
+.poster__desc {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    max-width: 430px;
+    margin-bottom: 80px;
+}
+
+.poster__btn {
+    padding: 10px 49px;
+    background-color: #2FA56C;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #FFF;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.poster__btn:hover {
+    background-color:  #2FA5A5;
+    transform-style: .2s all;
+}
+
+.main__nav {
+    margin-top: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.points {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.point {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #436591;
+    opacity: 0.3;
+}
+
+.active__point {
+    opacity: 1;
+}
+
+.main__link {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #1F2630;
+}
+
+/*  MAIN  */
