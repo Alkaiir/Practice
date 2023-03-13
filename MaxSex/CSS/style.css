@@ -2,22 +2,22 @@
 
 @font-face{
     font-family: 'Stapel';
-    src: url('/fonts/Stapel-Medium.eot') format("eot"), url('/fonts/Stapel-Medium.otf') format('otf'), url('/fonts/Stapel-Medium.ttf') format('ttf'),
-    url('/fonts/Stapel-Medium.woff') format('woff'), url('/fonts/Stapel-Medium.woff2') format('woff2');
+    src: url('/MaxSex/fonts/Stapel-Medium.eot') format("eot"), url('/MaxSex//fonts/Stapel-Medium.otf') format('otf'), url('/MaxSex//fonts/Stapel-Medium.ttf') format('ttf'),
+    url('/MaxSex//fonts/Stapel-Medium.woff') format('woff'), url('/MaxSex//fonts/Stapel-Medium.woff2') format('woff2');
     font-weight: 500;
     font-style: normal;
 }
 @font-face{
     font-family: 'Euclid';
-    src: url('/fonts/EuclidRegular.eot') format("eot"), url('/fonts/EuclidRegular.otf') format('otf'), url('/fonts/EuclidRegular.ttf') format('ttf'),
-    url('/fonts/EuclidRegular.woff') format('woff'), url('/fonts/EuclidRegular.woff2') format('woff2');
+    src: url('/MaxSex//fonts/EuclidRegular.eot') format("eot"), url('/MaxSex//fonts/EuclidRegular.otf') format('otf'), url('/MaxSex//fonts/EuclidRegular.ttf') format('ttf'),
+    url('/MaxSex//fonts/EuclidRegular.woff') format('woff'), url('/MaxSex//fonts/EuclidRegular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
 @font-face{
     font-family: 'Euclid';
-    src: url('/fonts/EuclidMedium.eot') format("eot"), url('/fonts/EuclidMedium.otf') format('otf'), url('/fonts/EuclidMedium.ttf') format('ttf'),
-    url('/fonts/EuclidMedium.woff') format('woff'), url('/fonts/EuclidMedium.woff2') format('woff2');
+    src: url('/MaxSex//fonts/EuclidMedium.eot') format("eot"), url('/MaxSex//fonts/EuclidMedium.otf') format('otf'), url('/MaxSex//fonts/EuclidMedium.ttf') format('ttf'),
+    url('/MaxSex//fonts/EuclidMedium.woff') format('woff'), url('/MaxSex//fonts/EuclidMedium.woff2') format('woff2');
     font-weight: 500;
     font-style: normal;
 }
@@ -211,10 +211,7 @@ button:active {
     font-weight: 400;
     font-size: 18px;
     line-height: 23px;
-}
-
-.promotions p {
-    border-bottom: 1px solid #1F2630;;
+    border-bottom: 1px solid #1F2630;
 }
 
 .promotions:hover {
