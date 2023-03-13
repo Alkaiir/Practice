@@ -1,0 +1,236 @@
+
+
+@font-face{
+    font-family: 'Stapel';
+    src: url('/fonts/Stapel-Medium.eot') format("eot"), url('/fonts/Stapel-Medium.otf') format('otf'), url('/fonts/Stapel-Medium.ttf') format('ttf'),
+    url('/fonts/Stapel-Medium.woff') format('woff'), url('/fonts/Stapel-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Euclid';
+    src: url('/fonts/EuclidRegular.eot') format("eot"), url('/fonts/EuclidRegular.otf') format('otf'), url('/fonts/EuclidRegular.ttf') format('ttf'),
+    url('/fonts/EuclidRegular.woff') format('woff'), url('/fonts/EuclidRegular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Euclid';
+    src: url('/fonts/EuclidMedium.eot') format("eot"), url('/fonts/EuclidMedium.otf') format('otf'), url('/fonts/EuclidMedium.ttf') format('ttf'),
+    url('/fonts/EuclidMedium.woff') format('woff'), url('/fonts/EuclidMedium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Noto+Sans&display=swap');
+
+
+/* GENERAL */
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding-left: 0 160px;
+}
+
+button:hover {
+    opacity: 0.85;
+    transition: 0.2s;
+}
+
+button:active {
+    box-shadow: 0 2px rgba(0, 0, 0, 0.5);
+    transform: translateY(4px);
+}
+
+
+/* HEADER */
+
+.header {
+    background: #436591;
+    box-shadow: 0px -6px 24px #436591;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    font-style: normal;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    padding: 19px 0;
+}
+
+.logo:active {
+    transform: translateY(1px);
+}
+
+.nav {
+    display: flex;
+}
+
+.nav ul>a {
+   color: white;
+}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+    padding-left: 67px;
+    gap: 24px;
+    font-weight: 400;
+}
+
+.nav__contacts {
+    display: flex;
+    align-items: center;
+    padding-left: 86px;
+    gap: 24px;
+    font-weight: 600;
+}
+
+.nav__list-item:hover {
+    text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.25);
+}
+
+.nav__list-item:active {
+    transform: translateY(1px);
+}
+
+
+.nav__contacts-item:hover {
+    text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.25);
+}
+
+.nav__contacts-item:active {
+    transform: translateY(1px);
+}
+
+
+/* HEADER MAIN */
+
+
+.header__main {
+    padding-top: 32px;
+    font-family: 'Stapel';
+    color: white;
+
+}
+
+.header__main-container {
+    display: flex;
+    background-color: #FCBD14;
+    border-radius: 15px;
+    position: relative;
+}
+
+.header__main-left {
+    padding: 30px 60px;
+}
+
+.header__title{
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 53px;
+    width: 540px;
+}
+
+.header__main-subtitle {
+    padding-top: 15px;
+    width: 450px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.header__main-button {
+    margin-top: 70px;
+    background: #2FA56C;
+    padding: 10px 49px;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.header__main-right {
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+}
+
+.hedaer__main-img {
+    position: relative;
+}
+
+.hedaer__main-img img {
+    position: relative;
+}
+
+.hedaer__main-img img::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: polygon(21% 43%, 100% 42%, 76% 73%, 0 73%);
+    color: white;
+}
+
+.header__main-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__main-pagination {
+    padding-top: 17px;
+    width: 62px;
+}
+
+.pagination-dots {
+    display: flex;
+    gap: 10px;
+}
+
+.dots__item {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: rgba(67, 101, 145, 0.3);
+}
+
+.active {
+    background: #436591;
+}
+
+.promotions {
+    padding-top: 9px;
+    color: #1F2630;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.promotions p {
+    border-bottom: 1px solid #1F2630;;
+}
+
+.promotions:hover {
+    opacity: 0.85;
+    transition: 0.2s;
+}
+
+.promotions:active {
+    transform: translateY(2px);
+}
+
+
+
+
+
+
+
+
+
